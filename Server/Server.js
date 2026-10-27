@@ -14,6 +14,7 @@ const port = process.env.PORT || 4000;
 const allowedOrigins = [
     'http://localhost:3000',
     'http://localhost:5173',
+    'https://client-dusky-sigma-17.vercel.app'
     process.env.FRONTEND_URL
 ].filter(Boolean);
 
